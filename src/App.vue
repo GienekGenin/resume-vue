@@ -1,7 +1,6 @@
 <template>
-  <div id="app">
+  <div class="MainContainer" id="app">
     <Intro></Intro>
-    <Main></Main>
     <Footer></Footer>
     <router-view/>
   </div>
@@ -11,15 +10,13 @@
   import Intro from './components/intro';
   import Footer from './components/footer';
   import Main from './components/main';
-  import Parallax from 'vue-parallaxy'
 
   export default {
     name: 'App',
     components: {
 			Intro, 
 			Main, 
-			Footer, 
-			Parallax
+			Footer
 		}
   }
 
@@ -39,6 +36,7 @@
     text-align: center;
     color: $main-color;
     margin: 0;
-    padding: 0;
-  }
+		padding: 0;
+	}
+	
 </style>

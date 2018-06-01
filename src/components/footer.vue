@@ -1,7 +1,7 @@
 <template>
-  <parallax>
-    <div class="footer-body"></div>
-  </parallax>
+	<div class="footer-fixed">
+		<p>fa</p>
+	</div>
 </template>
 
 <script>
@@ -13,9 +13,11 @@
 <style lang="scss" scoped>
   @import '../styles/variables';
 
-  .footer-body {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(240deg, #03595c, #210b5d);
-  }
+  .footer-fixed {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(207, 189, 189, 0.6);
+	}
 </style>
