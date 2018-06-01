@@ -1,6 +1,6 @@
 <template>
 	<div class="footer-fixed">
-		<p>fa</p>
+		<p>faAwesome</p>
 	</div>
 </template>
 

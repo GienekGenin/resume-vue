@@ -45,7 +45,21 @@
     </div><!--/Skills-->
 
 		<div class="ParallaxContainer Projects">
-    	
+    	<div class="Content">
+				<h2>TECHNICAL SKILLS:</h2>
+          <ul>
+            <li>Front-end: CSS3, HTML5, XML, web standards and accessibility, cross-browser compatibility, JSON with
+              padding
+            </li>
+            <li>Programming/scripting languages: JavaScript (ES6, jQuery, Bootstrap), basic knowledge of SQL</li>
+            <li>DB: Oracle</li>
+            <li>Development tools: WebStorm, Note++, Sublime Text, Photoshop/Fireworks, GitHub Desktop</li>
+            <li>APIs: Web Storage API, JSON API, Web-Storage API, Web Workers API, Geolocation API, Google Maps
+              JavaScript API
+            </li>
+            <li>Version control systems: Git</li>
+          </ul>
+			</div>
     </div><!--/Projects-->
 		<div class="ContentContainer Contacts">
     	<div class="Content">
@@ -98,31 +112,29 @@ h1 {
   transform-style: preserve-3d;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .ContentContainer {
   position: relative;
 	display: block;
-	z-index: 90;
+	z-index: 1;
 }
 		.Skills {
 			height: 100vh;
 			width: 100%;
 			background: linear-gradient(240deg, #f5925d, #361c83);
-			z-index: 1;
 		}
 		.Projects {
 			height: 100vh;
 			width: 100%;
 			background: linear-gradient(230deg, #78139e, #2f0ba8);
-			z-index: 2;
+			
 		}
 		.Contacts {
 			height: 100vh;
 			width: 100%;
 			background: linear-gradient(240deg, #5cddd9, #ee4bff);
-			z-index: 3;
   	}
 .Content {
   max-width: 750px;
