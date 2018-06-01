@@ -161,7 +161,9 @@ p {
 	// background-color: rgb(250,228, 216);
 	//linear-gradient(to right bottom,rgba(188, 0, 255, 0.7),rgba(76, 15, 204, 0.7)),url(../assets/img/1.jpg);
 	background: url(../assets/img/trianglify.png);					
-  background-size: cover;
+	background-size: cover;
+	// -webkit-clip-path: polygon(0 0, 100% 0, 100% 76%, 0 95%);
+	// clip-path: polygon(0 0, 100% 0, 100% 76%, 0 95%);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');

@@ -30,7 +30,7 @@
 		margin: 0;
 		box-sizing: border-box;
 	}
-	
+	html { overflow-y: hidden; }
   #app {
     font-family: 'Roboto', sans-serif;
     text-align: center;
