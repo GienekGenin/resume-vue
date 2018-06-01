@@ -134,8 +134,9 @@ h1 {
 		.Contacts {
 			height: 100vh;
 			width: 100%;
-			background: linear-gradient(240deg, #5cddd9, #ee4bff);
-  	}
+			background: linear-gradient(240deg, #384481,#5cddd9);
+		}
+		
 .Content {
   max-width: 750px;
   margin: 0 auto;
@@ -148,32 +149,27 @@ p {
 
 .ParallaxContainer {
   display: flex;
-  flex: 1 0 auto;
+	flex: 1 0 auto;
+	margin-left: -10px;
   position: relative;
   z-index: -1;
   height: 100vh;
   justify-content: center;
   align-items: center;
   transform: translateZ(-1px) scale(2);
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/sakura.png);
-  background-color: rgb(250,228, 216);
+  // background: url(https://www.toptal.com/designers/subtlepatterns/patterns/sakura.png);
+	// background-color: rgb(250,228, 216);
+	//linear-gradient(to right bottom,rgba(188, 0, 255, 0.7),rgba(76, 15, 204, 0.7)),url(../assets/img/1.jpg);
+	background: url(../assets/img/trianglify.png);					
+  background-size: cover;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
-  .intro-body {
-    height: 100vh;
-		width: 100%;
-    background: linear-gradient(
-								to right bottom,
-							rgba(188, 0, 255, 0.7),
-							rgba(76, 15, 204, 0.7)),
-								url(../assets/img/1.jpg);
-		background-position-y: -350px;					
-    background-size: cover;
-    animation: introGradient 8s ease infinite;
-    -webkit-animation: introGradient 8s ease infinite;
-    -moz-animation: introGradient 8s ease infinite;
-  }
+  // .intro-body {
+  //   animation: introGradient 8s ease infinite;
+  //   -webkit-animation: introGradient 8s ease infinite;
+  //   -moz-animation: introGradient 8s ease infinite;
+  // }
 
   // @keyframes introGradient {
   //   0% {
