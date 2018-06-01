@@ -74,16 +74,7 @@
         </ul>
       </div>
     </div><!--/Contact-->
-
-		<!-- <div class="ContentContainer Footer">
-    	<div class="Content">
-
-      </div>
-    </div>/Footer -->
 	</div><!-- /MainContainer -->
-
-
-	
 </template>
 
 <script>
